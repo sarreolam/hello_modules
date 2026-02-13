@@ -22,7 +22,7 @@ func RandomHello() string {
 
 }
 
-func guessYourAge(year int) int {
+func GuessYourAge(year int) int {
 	currentYear := 2026
 	age := currentYear - year
 	return age
