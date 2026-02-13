@@ -19,4 +19,11 @@ func RandomHello() string {
 		"Salutations %v",
 	}
 	return greetings[rand.Intn(len(greetings))]
+
+}
+
+func guessYourAge(year int) int {
+	currentYear := 2026
+	age := currentYear - year
+	return age
 }
